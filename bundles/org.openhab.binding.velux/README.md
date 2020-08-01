@@ -46,7 +46,7 @@ The <B>Velux KLF200</B> bridge has to be configured with some parameters, at lea
 | ipAddress              |                  |   Yes    | Hostname or address for accessing the Velux Bridge.          |
 | protocol               | slip             |    No    | Underlying communication protocol (http/https/slip).         |
 | tcpPort                | 51200            |    No    | TCP port (80 or 51200) for accessing the Velux Bridge.       |
-| password               | velux123         |    No    | Password for authentication against the Velux Bridge.(\*\*)    |
+| password               | <WLAN password>  |    No    | Password for authentication against the Velux Bridge.(\*\*)    |
 | timeoutMsecs           | 1000             |    No    | Initial Connection timeout in milliseconds.                  |
 | retries                | 5                |    No    | Number of retries during I/O.                                |
 | refreshMsecs           | 10000            |    No    | Refresh interval in milliseconds.                            |
@@ -54,7 +54,7 @@ The <B>Velux KLF200</B> bridge has to be configured with some parameters, at lea
 | isSequentialEnforced   | no               |    No    | Enforce Sequential Actuator Control even for long operations.|
 | isProtocolTraceEnabled | no               |    No    | Show any protocol interaction (loglevel INFO).               |
 
-(\*\*) Note: This password is the API password that is printed on the back of the unit. Normally it differs from the password of the web frontend.
+(\*\*) Note: This password is the WLAN password that is printed on the back of the unit. It is not the password of the web frontend.
 
 Advise: if you see a significant number of messages per day like
 
